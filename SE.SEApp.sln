@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SE.SEApp", "SE.SEApp\SE.SEA
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SE.SEApp.Mixin", "SE.SEApp.Mixin\SE.SEApp.Mixin.shproj", "{8A3CDCC5-4B55-4D87-A415-698A0E1FF06F}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SE.Logging.Mixin", "..\SE.Logging\SE.Logging.Mixin\SE.Logging.Mixin.shproj", "{FBC1A267-F273-41D4-B325-C3400BDC4F14}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SE.NativeNETDI.Mixin", "..\SE.NativeNETDI\SE.NativeNETDI.Mixin\SE.NativeNETDI.Mixin.shproj", "{C80FFB99-A942-421D-A0AA-6893E2A20748}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -26,5 +30,7 @@ Global
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		SE.SEApp.Mixin\SE.SEApp.Mixin.projitems*{8a3cdcc5-4b55-4d87-a415-698a0e1ff06f}*SharedItemsImports = 13
+		..\SE.NativeNETDI\SE.NativeNETDI.Mixin\SE.NativeNETDI.Mixin.projitems*{c80ffb99-a942-421d-a0aa-6893e2a20748}*SharedItemsImports = 13
+		..\SE.Logging\SE.Logging.Mixin\SE.Logging.Mixin.projitems*{fbc1a267-f273-41d4-b325-c3400bdc4f14}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal
